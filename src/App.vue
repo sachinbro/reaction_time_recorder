@@ -26,7 +26,7 @@ export default {
   },
   methods:{
     start(){
-      this.delay = 200 + Math.random()*5000
+      this.delay = 1000 + Math.random()*5000
       this.isPlaying = true
       this.showResults = false
      
@@ -47,7 +47,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #444;
+  color: rgb(253, 253, 253);
   margin-top: 60px;
   height: inherit;
 }

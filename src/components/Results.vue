@@ -1,6 +1,6 @@
 <template>
   <p>Reaction time - {{score}}ms</p>
-  <p> {{rank}}</p>
+  <p> Remark: {{rank}}</p>
 </template>
 
 <script>
@@ -25,6 +25,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    
 </style>
