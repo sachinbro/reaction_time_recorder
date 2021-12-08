@@ -12,14 +12,14 @@ export default {
         }
     },
     mounted(){
-        if(this.score <250){
-            this.rank = "Vutte lel Reflex"
+        if(this.score <150){
+            this.rank = "Vutte level Reflex"
         }
-        else if(this.score < 400){
+        else if(this.score < 250){
             this.rank = "Thikai ho"
         }
         else {
-            this.rank = "Thukka"
+            this.rank = "Thukka bejati"
         }
     }
 }

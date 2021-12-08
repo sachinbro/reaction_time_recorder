@@ -25,6 +25,7 @@ export default {
             this.timer = setInterval(() =>{
                 this.reactionTime +=10
             }, 10)
+            
         },
         stopTimer(){
             clearInterval(this.timer)
